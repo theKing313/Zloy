@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+  </head>
+  <body>
+    <pre id="root"></pre>
+    <script src="index.js"></script>
+    <script>
+      const ZFP = new ZloyFingerPrint();
+      ZFP.init({
+        env: "dev",
+        publicKey: "1",
+        server: "https://securecheck.digital/api/v1",
+        detectPort: 8443,
+      }).then(() => {
+        ZFP.display("root");
+      });
+    </script>
+  </body>
+</html>
