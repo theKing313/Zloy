@@ -67,5 +67,4 @@
 1. Склонировать репозиторий:
 
 ```bash
-git clone https://github.com/yourusername/sdk-performance-task.git
-
+git clone https://github.com/theKing313/Zloy.git
