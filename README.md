@@ -37,7 +37,7 @@
 
 | До | После |
 |----|-------|
-| ![before](./screenshots/before.png) | ![after](./screenshots/after.png) |
+| ![before](./screenshots/before.jpg) | ![after](./screenshots/after.jpg) |
 
 **До:**
 - 800+ запросов, DOM медленно загружается.
